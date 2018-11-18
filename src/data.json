@@ -309,6 +309,750 @@
 				"leg": 64
 			},
 			"imageExtension": ".jpg"
+		},
+		{
+			"name": "MP9",
+			"price": 1250,
+			"category": "SMG",
+			"origin": "Switzerland",
+			"clipSize": 30,
+			"reservedAmmo": 120,
+			"fireRate": 857,
+			"team": "CT",
+			"movementSpeed": 240,
+			"armorPenetration": 60,
+			"killReward": 600,
+			"accurateRangeStand": 15.88,
+			"accurateRangeCrouch": 24.98,
+			"drawTime": 1.2,
+			"reloadClipReady": 0.87,
+			"reloadFireReady": 2.13,
+			"unarmoredDamage": {
+				"head": 104,
+				"chestAndArm": 26,
+				"stomach": 32,
+				"leg": 19
+			},
+			"armoredDamage": {
+				"head": 61,
+				"chestAndArm": 15,
+				"stomach": 19,
+				"leg": 19
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "MAC-10",
+			"price": 1050,
+			"category": "SMG",
+			"origin": "United States",
+			"clipSize": 30,
+			"reservedAmmo": 100,
+			"fireRate": 800,
+			"team": "T",
+			"movementSpeed": 240,
+			"armorPenetration": 57.5,
+			"killReward": 600,
+			"accurateRangeStand": 10.96,
+			"accurateRangeCrouch": 14.4,
+			"drawTime": 1,
+			"reloadClipReady": 1.27,
+			"reloadFireReady": 2.57,
+			"unarmoredDamage": {
+				"head": 114,
+				"chestAndArm": 28,
+				"stomach": 35,
+				"leg": 21
+			},
+			"armoredDamage": {
+				"head": 65,
+				"chestAndArm": 16,
+				"stomach": 20,
+				"leg": 21
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "MP7",
+			"price": 1500,
+			"category": "SMG",
+			"origin": "Germany",
+			"clipSize": 30,
+			"reservedAmmo": 120,
+			"fireRate": 750,
+			"team": "Both",
+			"movementSpeed": 220,
+			"armorPenetration": 62.5,
+			"killReward": 600,
+			"accurateRangeStand": 14.38,
+			"accurateRangeCrouch": 23.37,
+			"drawTime": 1,
+			"reloadClipReady": 1.43,
+			"reloadFireReady": 3.13,
+			"unarmoredDamage": {
+				"head": 115,
+				"chestAndArm": 28,
+				"stomach": 35,
+				"leg": 21
+			},
+			"armoredDamage": {
+				"head": 71,
+				"chestAndArm": 17,
+				"stomach": 22,
+				"leg": 21
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "MP5-SD",
+			"price": 1500,
+			"category": "SMG",
+			"origin": "Germany",
+			"clipSize": 30,
+			"reservedAmmo": 120,
+			"fireRate": 750,
+			"team": "Both",
+			"movementSpeed": 235,
+			"armorPenetration": 62.5,
+			"killReward": 600,
+			"accurateRangeStand": 14.38,
+			"accurateRangeCrouch": 23.37,
+			"drawTime": 1,
+			"reloadClipReady": 1.97,
+			"reloadFireReady": 2.94,
+			"unarmoredDamage": {
+				"head": 107,
+				"chestAndArm": 26,
+				"stomach": 33,
+				"leg": 20
+			},
+			"armoredDamage": {
+				"head": 66,
+				"chestAndArm": 16,
+				"stomach": 20,
+				"leg": 20
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "UMP-45",
+			"price": 1200,
+			"category": "SMG",
+			"origin": "Germany",
+			"clipSize": 25,
+			"reservedAmmo": 100,
+			"fireRate": 666,
+			"team": "Both",
+			"movementSpeed": 230,
+			"armorPenetration": 65,
+			"killReward": 600,
+			"accurateRangeStand": 10.56,
+			"accurateRangeCrouch": 13.77,
+			"drawTime": 1,
+			"reloadClipReady": 1.5,
+			"reloadFireReady": 3.43,
+			"unarmoredDamage": {
+				"head": 140,
+				"chestAndArm": 35,
+				"stomach": 43,
+				"leg": 25
+			},
+			"armoredDamage": {
+				"head": 90,
+				"chestAndArm": 22,
+				"stomach": 28,
+				"leg": 25
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "P90",
+			"price": 2350,
+			"category": "SMG",
+			"origin": "Belgium",
+			"clipSize": 50,
+			"reservedAmmo": 100,
+			"fireRate": 857,
+			"team": "Both",
+			"movementSpeed": 230,
+			"armorPenetration": 69,
+			"killReward": 300,
+			"accurateRangeStand": 10.4,
+			"accurateRangeCrouch": 13.56,
+			"drawTime": 1,
+			"reloadClipReady": 1.97,
+			"reloadFireReady": 3.37,
+			"unarmoredDamage": {
+				"head": 103,
+				"chestAndArm": 25,
+				"stomach": 32,
+				"leg": 19
+			},
+			"armoredDamage": {
+				"head": 71,
+				"chestAndArm": 17,
+				"stomach": 22,
+				"leg": 19
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "PP-Bizon",
+			"price": 1400,
+			"category": "SMG",
+			"origin": "Russia",
+			"clipSize": 64,
+			"reservedAmmo": 120,
+			"fireRate": 750,
+			"team": "Both",
+			"movementSpeed": 240,
+			"armorPenetration": 57.5,
+			"killReward": 600,
+			"accurateRangeStand": 10.16,
+			"accurateRangeCrouch": 13.25,
+			"drawTime": 1.1,
+			"reloadClipReady": 1.17,
+			"reloadFireReady": 2.43,
+			"unarmoredDamage": {
+				"head": 108,
+				"chestAndArm": 27,
+				"stomach": 33,
+				"leg": 20
+			},
+			"armoredDamage": {
+				"head": 61,
+				"chestAndArm": 11,
+				"stomach": 19,
+				"leg": 20
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "FAMAS",
+			"price": 2250,
+			"category": "Rifle",
+			"origin": "France",
+			"clipSize": 25,
+			"reservedAmmo": 90,
+			"fireRate": 666,
+			"team": "CT",
+			"movementSpeed": 220,
+			"armorPenetration": 70,
+			"killReward": 300,
+			"accurateRangeStand": 14.58,
+			"accurateRangeCrouch": 19.07,
+			"drawTime": 1,
+			"reloadClipReady": 1.63,
+			"reloadFireReady": 3.3,
+			"unarmoredDamage": {
+				"head": 120,
+				"chestAndArm": 30,
+				"stomach": 37,
+				"leg": 22
+			},
+			"armoredDamage": {
+				"head": 84,
+				"chestAndArm": 21,
+				"stomach": 26,
+				"leg": 22
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "Galil AR",
+			"price": 2000,
+			"category": "Rifle",
+			"origin": "Israel",
+			"clipSize": 35,
+			"reservedAmmo": 90,
+			"fireRate": 666,
+			"team": "T",
+			"movementSpeed": 215,
+			"armorPenetration": 77.5,
+			"killReward": 300,
+			"accurateRangeStand": 16.26,
+			"accurateRangeCrouch": 21.23,
+			"drawTime": 1.1,
+			"reloadClipReady": 1.17,
+			"reloadFireReady": 3.03,
+			"unarmoredDamage": {
+				"head": 120,
+				"chestAndArm": 30,
+				"stomach": 37,
+				"leg": 22
+			},
+			"armoredDamage": {
+				"head": 92,
+				"chestAndArm": 23,
+				"stomach": 29,
+				"leg": 22
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "M4A4",
+			"price": 3100,
+			"category": "Rifle",
+			"origin": "United States",
+			"clipSize": 30,
+			"reservedAmmo": 90,
+			"fireRate": 666,
+			"team": "CT",
+			"movementSpeed": 225,
+			"armorPenetration": 70,
+			"killReward": 300,
+			"accurateRangeStand": 27.71,
+			"accurateRangeCrouch": 32.43,
+			"drawTime": 1.13,
+			"reloadClipReady": 1.37,
+			"reloadFireReady": 3.07,
+			"unarmoredDamage": {
+				"head": 131,
+				"chestAndArm": 32,
+				"stomach": 40,
+				"leg": 24
+			},
+			"armoredDamage": {
+				"head": 92,
+				"chestAndArm": 23,
+				"stomach": 28,
+				"leg": 24
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "M4A1-S",
+			"price": 3100,
+			"category": "Rifle",
+			"origin": "United States",
+			"clipSize": 20,
+			"reservedAmmo": 60,
+			"fireRate": 600,
+			"team": "CT",
+			"movementSpeed": 225,
+			"armorPenetration": 70,
+			"killReward": 300,
+			"accurateRangeStand": 28.22,
+			"accurateRangeCrouch": 33.13,
+			"drawTime": 1.13,
+			"reloadClipReady": 1.37,
+			"reloadFireReady": 3.07,
+			"unarmoredDamage": {
+				"head": 132,
+				"chestAndArm": 32,
+				"stomach": 41,
+				"leg": 24
+			},
+			"armoredDamage": {
+				"head": 92,
+				"chestAndArm": 23,
+				"stomach": 28,
+				"leg": 24
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "AK-47",
+			"price": 2700,
+			"category": "Rifle",
+			"origin": "Russia",
+			"clipSize": 30,
+			"reservedAmmo": 90,
+			"fireRate": 600,
+			"team": "T",
+			"movementSpeed": 215,
+			"armorPenetration": 77.5,
+			"killReward": 300,
+			"accurateRangeStand": 21.74,
+			"accurateRangeCrouch": 28.17,
+			"drawTime": 1,
+			"reloadClipReady": 1.17,
+			"reloadFireReady": 2.43,
+			"unarmoredDamage": {
+				"head": 143,
+				"chestAndArm": 35,
+				"stomach": 44,
+				"leg": 26
+			},
+			"armoredDamage": {
+				"head": 111,
+				"chestAndArm": 27,
+				"stomach": 34,
+				"leg": 26
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "AUG",
+			"price": 3150,
+			"category": "Rifle",
+			"origin": "Austria",
+			"clipSize": 30,
+			"reservedAmmo": 90,
+			"fireRate": 666,
+			"team": "CT",
+			"movementSpeed": 220,
+			"armorPenetration": 90,
+			"killReward": 300,
+			"accurateRangeStand": 35.03,
+			"accurateRangeCrouch": 45.09,
+			"drawTime": 1.17,
+			"reloadClipReady": 1.53,
+			"reloadFireReady": 3.77,
+			"unarmoredDamage": {
+				"head": 112,
+				"chestAndArm": 28,
+				"stomach": 35,
+				"leg": 21
+			},
+			"armoredDamage": {
+				"head": 100,
+				"chestAndArm": 25,
+				"stomach": 31,
+				"leg": 21
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "SG 553",
+			"price": 2750,
+			"category": "Rifle",
+			"origin": "Switzerland",
+			"clipSize": 30,
+			"reservedAmmo": 90,
+			"fireRate": 666,
+			"team": "T",
+			"movementSpeed": 210,
+			"armorPenetration": 100,
+			"killReward": 300,
+			"accurateRangeStand": 35.61,
+			"accurateRangeCrouch": 45.63,
+			"drawTime": 1,
+			"reloadClipReady": 1.03,
+			"reloadFireReady": 2.77,
+			"unarmoredDamage": {
+				"head": 120,
+				"chestAndArm": 30,
+				"stomach": 37,
+				"leg": 22
+			},
+			"armoredDamage": {
+				"head": 120,
+				"chestAndArm": 30,
+				"stomach": 37,
+				"leg": 22
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "SSG 08",
+			"price": 1700,
+			"category": "Rifle",
+			"origin": "Austria",
+			"clipSize": 10,
+			"reservedAmmo": 90,
+			"fireRate": 48,
+			"team": "Both",
+			"movementSpeed": 230,
+			"armorPenetration": 85,
+			"killReward": 300,
+			"accurateRangeStand": 4.77,
+			"accurateRangeCrouch": 6.33,
+			"drawTime": 1,
+			"reloadClipReady": 1.97,
+			"reloadFireReady": 3.7,
+			"unarmoredDamage": {
+				"head": 352,
+				"chestAndArm": 88,
+				"stomach": 110,
+				"leg": 66
+			},
+			"armoredDamage": {
+				"head": 299,
+				"chestAndArm": 74,
+				"stomach": 93,
+				"leg": 66
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "AWP",
+			"price": 4750,
+			"category": "Rifle",
+			"origin": "United Kingdom",
+			"clipSize": 10,
+			"reservedAmmo": 30,
+			"fireRate": 41,
+			"team": "Both",
+			"movementSpeed": 200,
+			"armorPenetration": 97.5,
+			"killReward": 100,
+			"accurateRangeStand": 1.88,
+			"accurateRangeCrouch": 2.51,
+			"drawTime": 1.25,
+			"reloadClipReady": 2,
+			"reloadFireReady": 3.67,
+			"unarmoredDamage": {
+				"head": 459,
+				"chestAndArm": 115,
+				"stomach": 143,
+				"leg": 85
+			},
+			"armoredDamage": {
+				"head": 448,
+				"chestAndArm": 112,
+				"stomach": 140,
+				"leg": 85
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "SCAR-20",
+			"price": 5000,
+			"category": "Rifle",
+			"origin": "Belgium",
+			"clipSize": 20,
+			"reservedAmmo": 90,
+			"fireRate": 240,
+			"team": "CT",
+			"movementSpeed": 215,
+			"armorPenetration": 82.5,
+			"killReward": 300,
+			"accurateRangeStand": 5.84,
+			"accurateRangeCrouch": 7.76,
+			"drawTime": 1,
+			"reloadClipReady": 1.4,
+			"reloadFireReady": 3.07,
+			"unarmoredDamage": {
+				"head": 319,
+				"chestAndArm": 79,
+				"stomach": 99,
+				"leg": 59
+			},
+			"armoredDamage": {
+				"head": 263,
+				"chestAndArm": 65,
+				"stomach": 82,
+				"leg": 59
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "G3SG1",
+			"price": 5000,
+			"category": "Rifle",
+			"origin": "Germany",
+			"clipSize": 20,
+			"reservedAmmo": 90,
+			"fireRate": 240,
+			"team": "T",
+			"movementSpeed": 215,
+			"armorPenetration": 82.5,
+			"killReward": 300,
+			"accurateRangeStand": 5.84,
+			"accurateRangeCrouch": 7.76,
+			"drawTime": 1,
+			"reloadClipReady": 2.6,
+			"reloadFireReady": 4.67,
+			"unarmoredDamage": {
+				"head": 319,
+				"chestAndArm": 79,
+				"stomach": 99,
+				"leg": 59
+			},
+			"armoredDamage": {
+				"head": 263,
+				"chestAndArm": 65,
+				"stomach": 82,
+				"leg": 59
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "Nova",
+			"price": 1200,
+			"category": "Heavy",
+			"origin": "Italy",
+			"clipSize": 8,
+			"reservedAmmo": 32,
+			"fireRate": 68,
+			"team": "Both",
+			"movementSpeed": 220,
+			"armorPenetration": 50,
+			"killReward": 900,
+			"accurateRangeStand": 3.24,
+			"accurateRangeCrouch": 3.37,
+			"drawTime": 1,
+			"reloadClipReady": 0.54,
+			"reloadFireReady": 4.74,
+			"unarmoredDamage": {
+				"head": 106,
+				"chestAndArm": 26,
+				"stomach": 32,
+				"leg": 19
+			},
+			"armoredDamage": {
+				"head": 52,
+				"chestAndArm": 13,
+				"stomach": 16,
+				"leg": 19
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "XM1014",
+			"price": 2000,
+			"category": "Heavy",
+			"origin": "Italy",
+			"clipSize": 7,
+			"reservedAmmo": 32,
+			"fireRate": 171,
+			"team": "Both",
+			"movementSpeed": 215,
+			"armorPenetration": 80,
+			"killReward": 900,
+			"accurateRangeStand": 3.39,
+			"accurateRangeCrouch": 3.52,
+			"drawTime": 1,
+			"reloadClipReady": 0.53,
+			"reloadFireReady": 4.22,
+			"unarmoredDamage": {
+				"head": 80,
+				"chestAndArm": 20,
+				"stomach": 25,
+				"leg": 15
+			},
+			"armoredDamage": {
+				"head": 64,
+				"chestAndArm": 16,
+				"stomach": 20,
+				"leg": 15
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "MAG-7",
+			"price": 1800,
+			"category": "Heavy",
+			"origin": "South Africa",
+			"clipSize": 5,
+			"reservedAmmo": 32,
+			"fireRate": 70,
+			"team": "CT",
+			"movementSpeed": 225,
+			"armorPenetration": 75,
+			"killReward": 900,
+			"accurateRangeStand": 3.24,
+			"accurateRangeCrouch": 3.37,
+			"drawTime": 1,
+			"reloadClipReady": 1.07,
+			"reloadFireReady": 2.47,
+			"unarmoredDamage": {
+				"head": 120,
+				"chestAndArm": 30,
+				"stomach": 37,
+				"leg": 22
+			},
+			"armoredDamage": {
+				"head": 90,
+				"chestAndArm": 22,
+				"stomach": 28,
+				"leg": 22
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "Sawed-Off",
+			"price": 1200,
+			"category": "Heavy",
+			"origin": "United States",
+			"clipSize": 7,
+			"reservedAmmo": 32,
+			"fireRate": 70,
+			"team": "T",
+			"movementSpeed": 210,
+			"armorPenetration": 75,
+			"killReward": 900,
+			"accurateRangeStand": 2.21,
+			"accurateRangeCrouch": 2.27,
+			"drawTime": 1,
+			"reloadClipReady": 0.55,
+			"reloadFireReady": 4.22,
+			"unarmoredDamage": {
+				"head": 128,
+				"chestAndArm": 32,
+				"stomach": 40,
+				"leg": 24
+			},
+			"armoredDamage": {
+				"head": 96,
+				"chestAndArm": 24,
+				"stomach": 30,
+				"leg": 24
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "M249",
+			"price": 5200,
+			"category": "Heavy",
+			"origin": "United States",
+			"clipSize": 100,
+			"reservedAmmo": 200,
+			"fireRate": 750,
+			"team": "Both",
+			"movementSpeed": 195,
+			"armorPenetration": 80,
+			"killReward": 300,
+			"accurateRangeStand": 15.71,
+			"accurateRangeCrouch": 20.76,
+			"drawTime": 1.1,
+			"reloadClipReady": 3.73,
+			"reloadFireReady": 5.7,
+			"unarmoredDamage": {
+				"head": 128,
+				"chestAndArm": 32,
+				"stomach": 40,
+				"leg": 24
+			},
+			"armoredDamage": {
+				"head": 102,
+				"chestAndArm": 25,
+				"stomach": 32,
+				"leg": 24
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "Negev",
+			"price": 1700,
+			"category": "Heavy",
+			"origin": "Israel",
+			"clipSize": 150,
+			"reservedAmmo": 300,
+			"fireRate": 800,
+			"team": "Both",
+			"movementSpeed": 150,
+			"armorPenetration": 71,
+			"killReward": 300,
+			"accurateRangeStand": 12.52,
+			"accurateRangeCrouch": 15.83,
+			"drawTime": 1.1,
+			"reloadClipReady": 3.83,
+			"reloadFireReady": 5.7,
+			"unarmoredDamage": {
+				"head": 140,
+				"chestAndArm": 35,
+				"stomach": 43,
+				"leg": 26
+			},
+			"armoredDamage": {
+				"head": 99,
+				"chestAndArm": 25,
+				"stomach": 31,
+				"leg": 19
+			},
+			"imageExtension": ".jpg"
 		}
 	]
 }

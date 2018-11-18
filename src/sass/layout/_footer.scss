@@ -1,0 +1,27 @@
+.footer {
+	background-color: $color-secondary;
+	padding: 0 15rem;
+	color: $color-white;
+	text-align: center;
+	box-shadow: 0 -0.5rem 1rem rgba($color-black, 0.2);
+
+	span {
+		padding: 1rem;
+		font-size: 3rem;
+	}
+
+	&__logo {
+		cursor: pointer;
+		padding: 1.5rem;
+		display: inline-block;
+		
+		img {
+			width: 3rem;
+			fill: $color-white;
+		}
+
+		&--right {
+			float: right;
+		}
+	}
+}
