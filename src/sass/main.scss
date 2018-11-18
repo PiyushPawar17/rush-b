@@ -1,7 +1,12 @@
+@import 'abstracts/mixins';
 @import 'abstracts/variables';
 
 @import 'base/base';
 @import 'base/typography';
+
+@import 'components/button';
+@import 'components/card';
+@import 'components/guns';
 
 @import 'layout/grid';
 @import 'layout/navbar';

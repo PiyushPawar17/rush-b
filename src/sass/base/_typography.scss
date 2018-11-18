@@ -3,3 +3,20 @@ body {
 	font-weight: 400;
 	line-height: 1.7;
 }
+
+.heading-primary {
+	margin: 5rem 0;
+
+	&__logo {
+		display: inline-block;
+		width: 3rem;
+		margin-right: 1rem;
+	}
+
+	&__heading {
+		display: inline-block;
+		font-size: 3rem;
+		font-weight: 400;
+		color: $color-primary;
+	}
+}

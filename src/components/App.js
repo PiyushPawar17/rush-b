@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Navbar from './Navbar';
+import Guns from './Guns';
 
 import '../sass/main.scss';
 
@@ -8,6 +10,7 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<Navbar />
+				<Guns />
 			</div>
 		);
 	}

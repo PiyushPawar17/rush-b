@@ -1,0 +1,50 @@
+.card {
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+
+	&__image {
+		transition: all 0.3s;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&__overlay {
+		position: absolute;
+		padding: 1rem 4rem;
+		top: 0;
+		left: 0;
+		background-color: rgba($color-black, 0.75);
+		height: 100%;
+		width: 100%;
+		transform: translateY(102%);
+		transition: all 0.3s;
+
+		&-content {
+			display: inline-block;
+			width: 50%;
+			height: 75%;
+		}
+
+		&-heading {
+			font-size: 1.8rem;
+			color: $color-primary;
+			margin-bottom: 0.5rem;
+		}
+
+		&-info {
+			font-size: 1.5rem;
+			color: $color-white;
+		}
+	}
+
+	&:hover &__overlay {
+		transform: translateY(0);
+	}
+
+	&:hover &__image {
+		transform: scale(1.1);
+	}
+}

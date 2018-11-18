@@ -1,0 +1,314 @@
+{
+	"guns": [
+		{
+			"name": "USP-S",
+			"price": 200,
+			"category": "Pistol",
+			"origin": "Germany",
+			"clipSize": 12,
+			"reservedAmmo": 24,
+			"fireRate": 352,
+			"team": "CT",
+			"movementSpeed": 240,
+			"armorPenetration": 50.5,
+			"killReward": 300,
+			"accurateRangeStand": 20.59,
+			"accurateRangeCrouch": 24.66,
+			"drawTime": 1,
+			"reloadClipReady": 0.97,
+			"reloadFireReady": 2.17,
+			"unarmoredDamage": {
+				"head": 140,
+				"chestAndArm": 34,
+				"stomach": 43,
+				"leg": 26
+			},
+			"armoredDamage": {
+				"head": 70,
+				"chestAndArm": 17,
+				"stomach": 22,
+				"leg": 26
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "P2000",
+			"price": 200,
+			"category": "Pistol",
+			"origin": "Germany",
+			"clipSize": 13,
+			"reservedAmmo": 52,
+			"fireRate": 352,
+			"team": "CT",
+			"movementSpeed": 240,
+			"armorPenetration": 50.5,
+			"killReward": 300,
+			"accurateRangeStand": 22.09,
+			"accurateRangeCrouch": 26.83,
+			"drawTime": 1,
+			"reloadClipReady": 0.97,
+			"reloadFireReady": 2.27,
+			"unarmoredDamage": {
+				"head": 140,
+				"chestAndArm": 34,
+				"stomach": 43,
+				"leg": 26
+			},
+			"armoredDamage": {
+				"head": 70,
+				"chestAndArm": 17,
+				"stomach": 22,
+				"leg": 26
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "Glock-18",
+			"price": 200,
+			"category": "Pistol",
+			"origin": "Austria",
+			"clipSize": 20,
+			"reservedAmmo": 120,
+			"fireRate": 400,
+			"team": "T",
+			"movementSpeed": 240,
+			"armorPenetration": 47,
+			"killReward": 300,
+			"accurateRangeStand": 20.05,
+			"accurateRangeCrouch": 24.58,
+			"drawTime": 1.1,
+			"reloadClipReady": 0.93,
+			"reloadFireReady": 2.27,
+			"unarmoredDamage": {
+				"head": 118,
+				"chestAndArm": 29,
+				"stomach": 37,
+				"leg": 22
+			},
+			"armoredDamage": {
+				"head": 55,
+				"chestAndArm": 13,
+				"stomach": 17,
+				"leg": 21
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "Dual Berettas",
+			"price": 400,
+			"category": "Pistol",
+			"origin": "Italy",
+			"clipSize": 30,
+			"reservedAmmo": 120,
+			"fireRate": 500,
+			"team": "Both",
+			"movementSpeed": 240,
+			"armorPenetration": 57.5,
+			"killReward": 300,
+			"accurateRangeStand": 16.93,
+			"accurateRangeCrouch": 21.02,
+			"drawTime": 1,
+			"reloadClipReady": 2.9,
+			"reloadFireReady": 3.77,
+			"unarmoredDamage": {
+				"head": 152,
+				"chestAndArm": 38,
+				"stomach": 47,
+				"leg": 28
+			},
+			"armoredDamage": {
+				"head": 86,
+				"chestAndArm": 21,
+				"stomach": 27,
+				"leg": 28
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "P250",
+			"price": 300,
+			"category": "Pistol",
+			"origin": "Switzerland",
+			"clipSize": 13,
+			"reservedAmmo": 26,
+			"fireRate": 400,
+			"team": "Both",
+			"movementSpeed": 240,
+			"armorPenetration": 64,
+			"killReward": 300,
+			"accurateRangeStand": 13.73,
+			"accurateRangeCrouch": 17.26,
+			"drawTime": 1,
+			"reloadClipReady": 0.93,
+			"reloadFireReady": 2.27,
+			"unarmoredDamage": {
+				"head": 151,
+				"chestAndArm": 37,
+				"stomach": 47,
+				"leg": 28
+			},
+			"armoredDamage": {
+				"head": 96,
+				"chestAndArm": 24,
+				"stomach": 30,
+				"leg": 28
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "CZ75-Auto",
+			"price": 500,
+			"category": "Pistol",
+			"origin": "Czech Republic",
+			"clipSize": 12,
+			"reservedAmmo": 12,
+			"fireRate": 600,
+			"team": "Both",
+			"movementSpeed": 240,
+			"armorPenetration": 77.65,
+			"killReward": 100,
+			"accurateRangeStand": 11.35,
+			"accurateRangeCrouch": 14.38,
+			"drawTime": 1.83,
+			"reloadClipReady": 1.53,
+			"reloadFireReady": 2.73,
+			"unarmoredDamage": {
+				"head": 123,
+				"chestAndArm": 30,
+				"stomach": 38,
+				"leg": 23
+			},
+			"armoredDamage": {
+				"head": 95,
+				"chestAndArm": 23,
+				"stomach": 29,
+				"leg": 23
+			},
+			"imageExtension": ".jpg"
+		},
+		{
+			"name": "Five-SeveN",
+			"price": 500,
+			"category": "Pistol",
+			"origin": "Belgium",
+			"clipSize": 20,
+			"reservedAmmo": 100,
+			"fireRate": 400,
+			"team": "CT",
+			"movementSpeed": 240,
+			"armorPenetration": 91.15,
+			"killReward": 300,
+			"accurateRangeStand": 13.73,
+			"accurateRangeCrouch": 17.26,
+			"drawTime": 1,
+			"reloadClipReady": 0.93,
+			"reloadFireReady": 2.27,
+			"unarmoredDamage": {
+				"head": 126,
+				"chestAndArm": 31,
+				"stomach": 39,
+				"leg": 23
+			},
+			"armoredDamage": {
+				"head": 115,
+				"chestAndArm": 28,
+				"stomach": 35,
+				"leg": 23
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "Tec-9",
+			"price": 500,
+			"category": "Pistol",
+			"origin": "Sweden",
+			"clipSize": 18,
+			"reservedAmmo": 80,
+			"fireRate": 500,
+			"team": "T",
+			"movementSpeed": 240,
+			"armorPenetration": 90.6,
+			"killReward": 300,
+			"accurateRangeStand": 22.09,
+			"accurateRangeCrouch": 26.83,
+			"drawTime": 1,
+			"reloadClipReady": 1.33,
+			"reloadFireReady": 2.57,
+			"unarmoredDamage": {
+				"head": 130,
+				"chestAndArm": 33,
+				"stomach": 41,
+				"leg": 24
+			},
+			"armoredDamage": {
+				"head": 118,
+				"chestAndArm": 29,
+				"stomach": 37,
+				"leg": 24
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "Desert Eagle",
+			"price": 700,
+			"category": "Pistol",
+			"origin": "Israel",
+			"clipSize": 7,
+			"reservedAmmo": 35,
+			"fireRate": 267,
+			"team": "Both",
+			"movementSpeed": 230,
+			"armorPenetration": 93.2,
+			"killReward": 300,
+			"accurateRangeStand": 24.58,
+			"accurateRangeCrouch": 36.46,
+			"drawTime": 1,
+			"reloadClipReady": 0.87,
+			"reloadFireReady": 2.2,
+			"unarmoredDamage": {
+				"head": 249,
+				"chestAndArm": 62,
+				"stomach": 77,
+				"leg": 46
+			},
+			"armoredDamage": {
+				"head": 232,
+				"chestAndArm": 58,
+				"stomach": 72,
+				"leg": 46
+			},
+			"imageExtension": ".png"
+		},
+		{
+			"name": "R8 Revolver",
+			"price": 600,
+			"category": "Pistol",
+			"origin": "United States",
+			"clipSize": 8,
+			"reservedAmmo": 8,
+			"fireRate": 120,
+			"team": "Both",
+			"movementSpeed": 220,
+			"armorPenetration": 93.2,
+			"killReward": 300,
+			"accurateRangeStand": 60.48,
+			"accurateRangeCrouch": 100.26,
+			"drawTime": 1.17,
+			"reloadClipReady": 1.97,
+			"reloadFireReady": 2.27,
+			"unarmoredDamage": {
+				"head": 342,
+				"chestAndArm": 85,
+				"stomach": 107,
+				"leg": 64
+			},
+			"armoredDamage": {
+				"head": 319,
+				"chestAndArm": 79,
+				"stomach": 99,
+				"leg": 64
+			},
+			"imageExtension": ".jpg"
+		}
+	]
+}
