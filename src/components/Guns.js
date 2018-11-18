@@ -8,6 +8,7 @@ class Guns extends React.Component {
 			<div className="row">
 				<div className="guns">
 					<GunsCategory category="Pistol" heading="Pistols" />
+					<GunsCategory category="SMG" heading="SMGs" />
 				</div>
 			</div>
 		);

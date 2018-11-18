@@ -15,18 +15,17 @@ class GunsCategory extends React.Component {
 				</div>
 				{data.guns
 					.filter(gun => gun.category === this.props.category)
-					.map((gun, index) =>
-						index % 3 === 2 ? (
+					.map((_, index) => (index % 3 === 0 ? data.guns.slice(index, index + 3) : null))
+					.map((arr, index) =>
+						arr ? (
 							<div className="row" key={index}>
-								<div className="col-1-of-3">
-									<Card gun={gun} />
-								</div>
+								{arr.map((gun, index) => (
+									<div className="col-1-of-3" key={index}>
+										<Card gun={gun} />
+									</div>
+								))}
 							</div>
-						) : (
-							<div className="col-1-of-3" key={index}>
-								<Card gun={gun} />
-							</div>
-						)
+						) : null
 					)}
 			</div>
 		);
