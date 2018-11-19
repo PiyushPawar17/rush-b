@@ -2,6 +2,20 @@
 
 Get detailed information of all CS:GO Guns.
 
+## Development
+
+-   Install Dependencies
+
+```sh
+npm install
+```
+
+-   Run Project
+
+```sh
+npm start
+```
+
 ## Credits
 
 -   CT and T logos are designed by [YumaKirosaki](https://www.deviantart.com/yumakirosaki/art/Counterstrike-Global-Offensive-Team-Logos-564752353).
