@@ -28,7 +28,15 @@
 		padding: 1.6rem;
 		font-size: 1.6rem;
 
-		&:hover {
+		& a,
+		& a:link,
+		& a:visited {
+			display: inline-block;
+			text-decoration: none;
+			color: $color-white;
+		}
+
+		& a:hover {
 			color: $color-primary;
 		}
 	}

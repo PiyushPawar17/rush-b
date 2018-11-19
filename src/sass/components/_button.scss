@@ -1,16 +1,21 @@
 .btn {
-	display: block;
-	text-transform: uppercase;
-	background-color: $color-white;
-	color: $color-primary;
-	border: 1px solid $color-secondary;
-	padding: 1rem;
-	border-radius: 3px;
-	font-size: 1rem;
-	cursor: pointer;
-	box-shadow: 0 1rem 1rem rgba($color-black, 0.3);
-	outline: none;
-	transition: all 0.3s;
+	&,
+	&:link,
+	&:visited {
+		text-decoration: none;
+		display: inline-block;
+		text-transform: uppercase;
+		background-color: $color-white;
+		color: $color-primary;
+		border: 1px solid $color-secondary;
+		padding: 1rem;
+		border-radius: 3px;
+		font-size: 1rem;
+		cursor: pointer;
+		box-shadow: 0 1rem 1rem rgba($color-black, 0.3);
+		outline: none;
+		transition: all 0.3s;
+	}
 
 	&:hover,
 	&:active {

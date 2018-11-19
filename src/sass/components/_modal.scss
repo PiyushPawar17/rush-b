@@ -1,0 +1,116 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	z-index: 20;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s;
+
+	&:target {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	&:target &__content {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	&__header {
+		margin: 5rem 0;
+		color: $color-primary;
+		font-weight: 400;
+		font-size: 2.4rem;
+	}
+
+	&__content {
+		position: relative;
+		width: 90vw;
+		height: 90vh;
+		overflow: auto;
+		margin: 5rem auto;
+		padding: 5rem 0;
+		background-color: $color-white;
+		opacity: 0;
+		transform: scale(0.25);
+		transition: all 0.4s 0.2s;
+	}
+
+	&__close-button {
+		&:link,
+		&:visited {
+			display: inline-block;
+			color: $color-secondary;
+			font-size: 3rem;
+			border: none;
+			outline: none;
+			text-decoration: none;
+			position: absolute;
+			top: 1.5rem;
+			right: 2rem;
+			transition: all 0.2s;
+		}
+
+		&:hover {
+			color: $color-primary;
+		}
+	}
+
+	&__image {
+		width: 75%;
+	}
+
+	&__gun-name {
+		display: inline-block;
+		color: $color-primary;
+		font-weight: 400;
+		font-size: 3rem;
+	}
+
+	&__team {
+		display: inline-block;
+		width: 3rem;
+		margin-left: 2rem;
+	}
+
+	&__basic-data {
+		margin-top: 2rem;
+	}
+
+	&__attribute {
+		font-size: 1.6rem;
+		font-weight: 400;
+
+		&:not(:last-child) {
+			margin-bottom: 1rem;
+		}
+	}
+
+	&__attribute-value {
+		color: $color-primary;
+	}
+
+	&__table {
+		font-size: 1.6rem;
+		border-spacing: 0;
+		border-collapse: collapse;
+
+		& th {
+			font-weight: 400;
+			color: $color-primary;
+			text-align: left;
+			padding: 1rem 2rem;
+			border: 1px solid $color-secondary;
+			border-collapse: collapse;
+		}
+
+		& td {
+			padding: 1rem 2rem;
+			border: 1px solid $color-secondary;
+		}
+	}
+}

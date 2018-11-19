@@ -10,7 +10,7 @@ class GunsCategory extends React.Component {
 		let guns = data.guns.filter(gun => gun.category === this.props.category);
 		guns = guns.map((_, index) => (index % 3 === 0 ? guns.slice(index, index + 3) : null));
 		return (
-			<div>
+			<div id={`${this.props.category}`}>
 				<div className="heading-primary">
 					<img src={Headshot} alt="Headshot" className="heading-primary__logo" />
 					<h1 className="heading-primary__heading">{this.props.heading}</h1>

@@ -1,6 +1,7 @@
 {
 	"guns": [
 		{
+			"id": "usps",
 			"name": "USP-S",
 			"price": 200,
 			"category": "Pistol",
@@ -32,6 +33,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "p2000",
 			"name": "P2000",
 			"price": 200,
 			"category": "Pistol",
@@ -63,6 +65,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "glock18",
 			"name": "Glock-18",
 			"price": 200,
 			"category": "Pistol",
@@ -94,6 +97,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "dualberettas",
 			"name": "Dual Berettas",
 			"price": 400,
 			"category": "Pistol",
@@ -125,6 +129,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "p250",
 			"name": "P250",
 			"price": 300,
 			"category": "Pistol",
@@ -156,6 +161,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "cz75auto",
 			"name": "CZ75-Auto",
 			"price": 500,
 			"category": "Pistol",
@@ -187,6 +193,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "fiveseven",
 			"name": "Five-SeveN",
 			"price": 500,
 			"category": "Pistol",
@@ -218,6 +225,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "tec9",
 			"name": "Tec-9",
 			"price": 500,
 			"category": "Pistol",
@@ -249,6 +257,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "deserteagle",
 			"name": "Desert Eagle",
 			"price": 700,
 			"category": "Pistol",
@@ -280,6 +289,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "r8revolver",
 			"name": "R8 Revolver",
 			"price": 600,
 			"category": "Pistol",
@@ -311,6 +321,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "mp9",
 			"name": "MP9",
 			"price": 1250,
 			"category": "SMG",
@@ -342,6 +353,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "mac10",
 			"name": "MAC-10",
 			"price": 1050,
 			"category": "SMG",
@@ -373,6 +385,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "mp7",
 			"name": "MP7",
 			"price": 1500,
 			"category": "SMG",
@@ -404,6 +417,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "mp5sd",
 			"name": "MP5-SD",
 			"price": 1500,
 			"category": "SMG",
@@ -435,6 +449,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "ump45",
 			"name": "UMP-45",
 			"price": 1200,
 			"category": "SMG",
@@ -466,6 +481,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "p90",
 			"name": "P90",
 			"price": 2350,
 			"category": "SMG",
@@ -497,6 +513,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "ppbizon",
 			"name": "PP-Bizon",
 			"price": 1400,
 			"category": "SMG",
@@ -528,6 +545,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "famas",
 			"name": "FAMAS",
 			"price": 2250,
 			"category": "Rifle",
@@ -559,6 +577,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "galilar",
 			"name": "Galil AR",
 			"price": 2000,
 			"category": "Rifle",
@@ -590,6 +609,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "m4a4",
 			"name": "M4A4",
 			"price": 3100,
 			"category": "Rifle",
@@ -621,6 +641,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "m4a1s",
 			"name": "M4A1-S",
 			"price": 3100,
 			"category": "Rifle",
@@ -652,6 +673,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "ak47",
 			"name": "AK-47",
 			"price": 2700,
 			"category": "Rifle",
@@ -683,6 +705,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "aug",
 			"name": "AUG",
 			"price": 3150,
 			"category": "Rifle",
@@ -714,6 +737,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "sg553",
 			"name": "SG 553",
 			"price": 2750,
 			"category": "Rifle",
@@ -745,6 +769,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "ssg08",
 			"name": "SSG 08",
 			"price": 1700,
 			"category": "Rifle",
@@ -776,6 +801,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "awp",
 			"name": "AWP",
 			"price": 4750,
 			"category": "Rifle",
@@ -807,6 +833,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "scar20",
 			"name": "SCAR-20",
 			"price": 5000,
 			"category": "Rifle",
@@ -838,6 +865,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "g3sg1",
 			"name": "G3SG1",
 			"price": 5000,
 			"category": "Rifle",
@@ -869,6 +897,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "nova",
 			"name": "Nova",
 			"price": 1200,
 			"category": "Heavy",
@@ -900,6 +929,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "xm1014",
 			"name": "XM1014",
 			"price": 2000,
 			"category": "Heavy",
@@ -931,6 +961,7 @@
 			"imageExtension": ".png"
 		},
 		{
+			"id": "mag7",
 			"name": "MAG-7",
 			"price": 1800,
 			"category": "Heavy",
@@ -962,6 +993,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "sawedoff",
 			"name": "Sawed-Off",
 			"price": 1200,
 			"category": "Heavy",
@@ -993,6 +1025,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "m249",
 			"name": "M249",
 			"price": 5200,
 			"category": "Heavy",
@@ -1024,6 +1057,7 @@
 			"imageExtension": ".jpg"
 		},
 		{
+			"id": "negev",
 			"name": "Negev",
 			"price": 1700,
 			"category": "Heavy",

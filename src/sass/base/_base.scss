@@ -13,3 +13,16 @@ html {
 body {
 	box-sizing: border-box;
 }
+
+*::-webkit-scrollbar-track {
+	background-color: $color-white;
+}
+
+*::-webkit-scrollbar {
+	width: 1rem;
+	background-color: $color-white;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: $color-primary;
+}

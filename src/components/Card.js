@@ -19,7 +19,9 @@ class Card extends React.Component {
 						<p className="card__overlay-heading">Origin</p>
 						<p className="card__overlay-info">{this.props.gun.origin}</p>
 					</span>
-					<button className="btn">More Info</button>
+					<a href={`?gun=${this.props.gun.id}#modal`} className="btn">
+						More Info
+					</a>
 				</div>
 			</div>
 		);

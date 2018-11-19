@@ -9,14 +9,24 @@ class Footer extends React.Component {
 		return (
 			<footer className="footer margin-top-medium">
 				<div className="footer__logo">
-					<img src={ReactLogo} alt="React Logo" />
+					<a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+						<img src={ReactLogo} alt="React Logo" />
+					</a>
 				</div>
 				<span>+</span>
 				<div className="footer__logo">
-					<img src={SassLogo} alt="Sass Logo" />
+					<a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
+						<img src={SassLogo} alt="Sass Logo" />
+					</a>
 				</div>
 				<div className="footer__logo footer__logo--right">
-					<img src={GitHubLogo} alt="GitHub Logo" />
+					<a
+						href="https://github.com/PiyushPawar17/rush-b"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src={GitHubLogo} alt="GitHub Logo" />
+					</a>
 				</div>
 			</footer>
 		);
